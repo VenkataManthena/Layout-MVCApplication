@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @RenderSection("head", false);
+</head>
+<body>
+    @Html.ActionLink("Home", "Index","Template")                     
+    |              @Html.ActionLink("About Us","About","Template")                                       
+    |       @Html.ActionLink("ContactUs","Contact","Template")                                        
+
+    <br>
+        @RenderBody()
+    <br>
+      <br /><br /><br /><br />      
+        
+                                                                                                   CopyRight  c  2017  Rights Reserved 
+</body>
+</html>
